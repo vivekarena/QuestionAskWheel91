@@ -1,0 +1,349 @@
+body {
+    font-family: "Overpass", sans-serif;
+}
+/* Add Indicator fontawesome icon to the left */
+.QuestionsAsked
+{
+    margin-top:50px;
+    .user
+    {
+        color:#999999;
+        font-size:12px;
+        font-weight: normal;
+        margin-left:5px;
+        span
+        {
+            color:#585858;
+            font-size:12px;
+            font-weight: bold;
+        }
+        .far
+        {
+            font-size:14px;
+        }
+    }
+    #accordion {
+        .panel {
+            border-radius: 0;
+            border: 0;
+            margin-top: 0px;
+        }
+        a {
+            display: block;
+            padding: 10px 5px;
+            border-bottom: 1px solid #999999;
+            text-decoration: none;
+            color: #262626;
+            font-size:16px;
+            text-align: left;
+           
+        }
+        
+        .panel-heading {
+            a.collapsed {
+                &:hover {
+                    color: rgba(38, 38, 38, 0.65);
+                    transition: all 0.2s ease-in;
+                    &::before {
+                        color: rgba(38, 38, 38, 0.65);
+                    }
+                }
+                &:focus {
+                    color: rgba(38, 38, 38, 0.65);
+                    transition: all 0.2s ease-in;
+                    &::before {
+                        color: rgba(38, 38, 38, 0.65);
+                    }
+                }
+            }
+            padding: 0;
+            border-radius: 0px;
+            text-align: center;
+            a {
+                &:not(.collapsed) {
+                    color: rgba(38, 38, 38, 0.65);
+                    transition: all 0.2s ease-in;
+                }
+            }
+            .accordion-toggle {
+                &::before {
+                    font-family: 'FontAwesome';
+                    content: "\f054";
+                    float: left;
+                    color: rgba(38, 38, 38, 0.65);
+                    font-weight: lighter;
+                    transform: rotate(90deg);
+                    transition: all 0.2s ease-in;
+                    margin-right:15px;
+                }
+            }
+            .accordion-toggle.collapsed {
+                &::before {
+                    color: #444;
+                    transform: rotate(0deg);
+                    transition: all 0.2s ease-in;
+                }
+            }
+        }
+    }
+    .card
+    {
+        border:1px solid #d4d4d4;
+        margin:20px 0px 0px 60px;
+        position: relative;
+        &::before
+        {
+            content: '';
+            display: block;  
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            margin-top: -52px;
+            width: 0;
+            height: 0;
+            background-color: #fff;
+            border-top: 10px solid transparent;
+            border-right: 10px solid grey;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid transparent;
+        }
+        .card-body
+        {
+            padding:10px 15px;
+            hr
+            {
+                margin-bottom:10px;
+                margin-top:10px;
+            }
+            p
+            {
+                font-size: 14px;
+                color: #696969;
+                font-weight: normal;
+                
+            }
+        }
+    }
+    .expertComment
+    {
+        font-size: 12px;
+        color: #999999;
+        font-weight: normal;
+        span
+        {
+            font-size: 12px;
+            color: #585858;
+            font-weight: bold;
+        }
+        
+    }
+    img
+    {
+        width:32px;
+        float:left;
+        margin-right:10px;
+    }
+    .helpful
+    {
+        font-size: 12px !important;
+        color: #457c9d !important;
+        font-weight: normal;  
+        display: block;  
+        margin-left:40px;
+        border-bottom:none !important;
+    }
+    .SeeAllQuestions
+    {
+        font-size: 14px !important;
+        color: #fff !important;
+        font-weight: normal;  
+        background-color:#e63a46;
+        margin-top:15px;
+        margin-right: 10px;
+    }
+    .AskQuestion
+    {
+        font-size: 14px !important;
+        color: #e63a46 !important;
+        font-weight: normal;  
+        background-color:transparent;
+        border:1px solid #e63a46;
+        margin-top:15px;
+    }
+}
+
+
+
+@media screen and (max-width:768px)
+{
+    .QuestionsAsked
+{
+    margin-top:50px;
+    .user
+    {
+        color:#999999;
+        font-size:12px;
+        font-weight: normal;
+        margin-left:5px;
+        span
+        {
+            color:#585858;
+            font-size:12px;
+            font-weight: bold;
+        }
+        .far
+        {
+            font-size:14px;
+        }
+    }
+    #accordion {
+        .panel {
+            border-radius: 0;
+            border: 0;
+            margin-top: 0px;
+        }
+        a {
+            display: block;
+            padding: 10px 5px;
+            border-bottom: 1px solid #999999;
+            text-decoration: none;
+            color: #262626;
+            font-size:16px;
+            text-align: left;
+           
+        }
+        
+        .panel-heading {
+            a.collapsed {
+                &:hover {
+                    color: rgba(38, 38, 38, 0.65);
+                    transition: all 0.2s ease-in;
+                    &::before {
+                        color: rgba(38, 38, 38, 0.65);
+                    }
+                }
+                &:focus {
+                    color: rgba(38, 38, 38, 0.65);
+                    transition: all 0.2s ease-in;
+                    &::before {
+                        color: rgba(38, 38, 38, 0.65);
+                    }
+                }
+            }
+            padding: 0;
+            border-radius: 0px;
+            text-align: center;
+            a {
+                &:not(.collapsed) {
+                    color: rgba(38, 38, 38, 0.65);
+                    transition: all 0.2s ease-in;
+                }
+            }
+            .accordion-toggle {
+                &::before {
+                    font-family: 'FontAwesome';
+                    content: "\f054";
+                    float: left;
+                    color: rgba(38, 38, 38, 0.65);
+                    font-weight: lighter;
+                    transform: rotate(90deg);
+                    transition: all 0.2s ease-in;
+                    margin-right:15px;
+                    margin-bottom: 15px;
+                }
+            }
+            .accordion-toggle.collapsed {
+                &::before {
+                    color: #444;
+                    transform: rotate(0deg);
+                    transition: all 0.2s ease-in;
+                }
+            }
+        }
+    }
+    .card
+    {
+        border:1px solid #d4d4d4;
+        margin:20px 0px 0px 60px;
+        position: relative;
+        &::before
+        {
+            content: '';
+            display: block;  
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            margin-top: -100px;
+            width: 0;
+            height: 0;
+            background-color: #fff;
+            border-top: 10px solid transparent;
+            border-right: 10px solid grey;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid transparent;
+        }
+        .card-body
+        {
+            padding:10px 15px;
+            hr
+            {
+                margin-bottom:10px;
+                margin-top:10px;
+            }
+            p
+            {
+                font-size: 14px;
+                color: #696969;
+                font-weight: normal;
+                
+            }
+        }
+    }
+    .expertComment
+    {
+        font-size: 12px;
+        color: #999999;
+        font-weight: normal;
+        span
+        {
+            font-size: 12px;
+            color: #585858;
+            font-weight: bold;
+        }
+        
+    }
+    img
+    {
+        width:32px;
+        float:left;
+        margin-right:10px;
+    }
+    .helpful
+    {
+        font-size: 12px !important;
+        color: #457c9d !important;
+        font-weight: normal;  
+        display: block;  
+        margin-left:60px;
+        border-bottom:none !important;
+    }
+    .SeeAllQuestions
+    {
+        font-size: 14px !important;
+        color: #fff !important;
+        font-weight: normal;  
+        background-color:#e63a46;
+        margin-top:15px;
+        margin-right: 10px;
+    }
+    .AskQuestion
+    {
+        font-size: 14px !important;
+        color: #e63a46 !important;
+        font-weight: normal;  
+        background-color:transparent;
+        border:1px solid #e63a46;
+        margin-top:15px;
+    }
+}
+}

@@ -1,0 +1,314 @@
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+/* Add Indicator fontawesome icon to the left */
+.QuestionsAsked {
+  margin-top: 50px;
+}
+
+.QuestionsAsked .user {
+  color: #999999;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.QuestionsAsked .user span {
+  color: #585858;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.QuestionsAsked .user .far {
+  font-size: 14px;
+}
+
+.QuestionsAsked #accordion .panel {
+  border-radius: 0;
+  border: 0;
+  margin-top: 0px;
+}
+
+.QuestionsAsked #accordion a {
+  display: block;
+  padding: 10px 5px;
+  border-bottom: 1px solid #999999;
+  text-decoration: none;
+  color: #262626;
+  font-size: 16px;
+  text-align: left;
+}
+
+.QuestionsAsked #accordion .panel-heading {
+  padding: 0;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.QuestionsAsked #accordion .panel-heading a.collapsed:hover {
+  color: rgba(38, 38, 38, 0.65);
+  transition: all 0.2s ease-in;
+}
+
+.QuestionsAsked #accordion .panel-heading a.collapsed:hover::before {
+  color: rgba(38, 38, 38, 0.65);
+}
+
+.QuestionsAsked #accordion .panel-heading a.collapsed:focus {
+  color: rgba(38, 38, 38, 0.65);
+  transition: all 0.2s ease-in;
+}
+
+.QuestionsAsked #accordion .panel-heading a.collapsed:focus::before {
+  color: rgba(38, 38, 38, 0.65);
+}
+
+.QuestionsAsked #accordion .panel-heading a:not(.collapsed) {
+  color: rgba(38, 38, 38, 0.65);
+  transition: all 0.2s ease-in;
+}
+
+.QuestionsAsked #accordion .panel-heading .accordion-toggle::before {
+  font-family: 'FontAwesome';
+  content: "\f054";
+  float: left;
+  color: rgba(38, 38, 38, 0.65);
+  font-weight: lighter;
+  transform: rotate(90deg);
+  transition: all 0.2s ease-in;
+  margin-right: 15px;
+}
+
+.QuestionsAsked #accordion .panel-heading .accordion-toggle.collapsed::before {
+  color: #444;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in;
+}
+
+.QuestionsAsked .card {
+  border: 1px solid #d4d4d4;
+  margin: 20px 0px 0px 60px;
+  position: relative;
+}
+
+.QuestionsAsked .card::before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  margin-top: -52px;
+  width: 0;
+  height: 0;
+  background-color: #fff;
+  border-top: 10px solid transparent;
+  border-right: 10px solid grey;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.QuestionsAsked .card .card-body {
+  padding: 10px 15px;
+}
+
+.QuestionsAsked .card .card-body hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.QuestionsAsked .card .card-body p {
+  font-size: 14px;
+  color: #696969;
+  font-weight: normal;
+}
+
+.QuestionsAsked .expertComment {
+  font-size: 12px;
+  color: #999999;
+  font-weight: normal;
+}
+
+.QuestionsAsked .expertComment span {
+  font-size: 12px;
+  color: #585858;
+  font-weight: bold;
+}
+
+.QuestionsAsked img {
+  width: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+.QuestionsAsked .helpful {
+  font-size: 12px !important;
+  color: #457c9d !important;
+  font-weight: normal;
+  display: block;
+  margin-left: 40px;
+  border-bottom: none !important;
+}
+
+.QuestionsAsked .SeeAllQuestions {
+  font-size: 14px !important;
+  color: #fff !important;
+  font-weight: normal;
+  background-color: #e63a46;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.QuestionsAsked .AskQuestion {
+  font-size: 14px !important;
+  color: #e63a46 !important;
+  font-weight: normal;
+  background-color: transparent;
+  border: 1px solid #e63a46;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .QuestionsAsked {
+    margin-top: 50px;
+  }
+  .QuestionsAsked .user {
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+  }
+  .QuestionsAsked .user span {
+    color: #585858;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .QuestionsAsked .user .far {
+    font-size: 14px;
+  }
+  .QuestionsAsked #accordion .panel {
+    border-radius: 0;
+    border: 0;
+    margin-top: 0px;
+  }
+  .QuestionsAsked #accordion a {
+    display: block;
+    padding: 10px 5px;
+    border-bottom: 1px solid #999999;
+    text-decoration: none;
+    color: #262626;
+    font-size: 16px;
+    text-align: left;
+  }
+  .QuestionsAsked #accordion .panel-heading {
+    padding: 0;
+    border-radius: 0px;
+    text-align: center;
+  }
+  .QuestionsAsked #accordion .panel-heading a.collapsed:hover {
+    color: rgba(38, 38, 38, 0.65);
+    transition: all 0.2s ease-in;
+  }
+  .QuestionsAsked #accordion .panel-heading a.collapsed:hover::before {
+    color: rgba(38, 38, 38, 0.65);
+  }
+  .QuestionsAsked #accordion .panel-heading a.collapsed:focus {
+    color: rgba(38, 38, 38, 0.65);
+    transition: all 0.2s ease-in;
+  }
+  .QuestionsAsked #accordion .panel-heading a.collapsed:focus::before {
+    color: rgba(38, 38, 38, 0.65);
+  }
+  .QuestionsAsked #accordion .panel-heading a:not(.collapsed) {
+    color: rgba(38, 38, 38, 0.65);
+    transition: all 0.2s ease-in;
+  }
+  .QuestionsAsked #accordion .panel-heading .accordion-toggle::before {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    float: left;
+    color: rgba(38, 38, 38, 0.65);
+    font-weight: lighter;
+    transform: rotate(90deg);
+    transition: all 0.2s ease-in;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .QuestionsAsked #accordion .panel-heading .accordion-toggle.collapsed::before {
+    color: #444;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in;
+  }
+  .QuestionsAsked .card {
+    border: 1px solid #d4d4d4;
+    margin: 20px 0px 0px 60px;
+    position: relative;
+  }
+  .QuestionsAsked .card::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -100px;
+    width: 0;
+    height: 0;
+    background-color: #fff;
+    border-top: 10px solid transparent;
+    border-right: 10px solid grey;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+  }
+  .QuestionsAsked .card .card-body {
+    padding: 10px 15px;
+  }
+  .QuestionsAsked .card .card-body hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .QuestionsAsked .card .card-body p {
+    font-size: 14px;
+    color: #696969;
+    font-weight: normal;
+  }
+  .QuestionsAsked .expertComment {
+    font-size: 12px;
+    color: #999999;
+    font-weight: normal;
+  }
+  .QuestionsAsked .expertComment span {
+    font-size: 12px;
+    color: #585858;
+    font-weight: bold;
+  }
+  .QuestionsAsked img {
+    width: 32px;
+    float: left;
+    margin-right: 10px;
+  }
+  .QuestionsAsked .helpful {
+    font-size: 12px !important;
+    color: #457c9d !important;
+    font-weight: normal;
+    display: block;
+    margin-left: 60px;
+    border-bottom: none !important;
+  }
+  .QuestionsAsked .SeeAllQuestions {
+    font-size: 14px !important;
+    color: #fff !important;
+    font-weight: normal;
+    background-color: #e63a46;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .QuestionsAsked .AskQuestion {
+    font-size: 14px !important;
+    color: #e63a46 !important;
+    font-weight: normal;
+    background-color: transparent;
+    border: 1px solid #e63a46;
+    margin-top: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
